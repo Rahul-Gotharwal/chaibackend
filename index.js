@@ -45,7 +45,7 @@ const githubData =
 // if anything is request by someone on the home like "/" return respne that is hello
 app.get("/", (req, res) => {
   res.send("hello");
-});
+})
 
 // we get req on / route and we send the res
 app.get('/login' , (req,res)=>{
