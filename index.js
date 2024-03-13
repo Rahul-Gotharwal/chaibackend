@@ -46,6 +46,9 @@ const githubData =
 app.get("/", (req, res) => {
   res.send("hello");
 });
+app.get("/gama", (req, res) => {
+  res.send("gama");
+});
 // we get req on / route and we send the res
 app.get('/login' , (req,res)=>{
     res.send("<h1> please login at the docdeode</h1>")
